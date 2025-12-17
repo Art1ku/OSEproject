@@ -14,3 +14,12 @@ school
 - Yes
 - wtf
 -----
+Gaming Survey
+- RPG
+- Yes
+-----
+School tools
+- Yes
+- Maybe
+- Yes
+-----

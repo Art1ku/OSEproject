@@ -39,10 +39,8 @@ public class SurveyCreatorController {
 
         Survey newSurvey = new Survey(title, questions);
 
-        // добавляем в список
         MainMenuController.surveys.add(newSurvey);
 
-        // 💾 СОХРАНЯЕМ В ФАЙЛ
         SurveyStorage.saveAll(MainMenuController.surveys);
 
         Main.switchScene("main-menu.fxml");
@@ -54,7 +52,6 @@ public class SurveyCreatorController {
         Main.switchScene("main-menu.fxml");
     }
 
-    // Вложенный класс для ввода вопросов
     private static class QuestionInput {
         private final VBox node;
         private final TextField questionField;

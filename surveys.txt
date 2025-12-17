@@ -8,7 +8,6 @@ O:Beginner
 O:Intermediate
 O:Advanced
 END
-
 SURVEY:Cooking Survey
 Q:Favorite cuisine?
 O:Italian
@@ -19,7 +18,6 @@ O:Daily
 O:Sometimes
 O:Never
 END
-
 SURVEY:Gaming Survey
 Q:Favorite genre?
 O:RPG
@@ -29,7 +27,6 @@ Q:Play often?
 O:Yes
 O:No
 END
-
 SURVEY:school
 Q:lol are you student
 O:Yes
@@ -40,7 +37,6 @@ O:Yes
 O:nah
 O:wtf
 END
-
 SURVEY:lolpin
 Q:lll
 O:s
@@ -55,4 +51,17 @@ O:z
 O:o
 O:g
 END
-
+SURVEY:School tools
+Q:Do you like math?
+O:Yes
+O:No
+O:Maybe
+Q:Do you like english?
+O:Yes
+O:No
+O:Maybe
+Q:Do you like phychic?
+O:Yes
+O:No
+O:Maybe
+END

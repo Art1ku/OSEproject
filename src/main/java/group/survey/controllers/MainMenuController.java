@@ -27,7 +27,7 @@ public class MainMenuController {
             surveys.clear();
             surveys.addAll(SurveyStorage.loadAll());
 
-            if (surveys.isEmpty()) { // дефолтные survey
+            if (surveys.isEmpty()) {
                 surveys.add(new Survey("Programming Survey", List.of(
                         new Question("Favorite language?", List.of("Java", "Python", "C++")),
                         new Question("Level?", List.of("Beginner", "Intermediate", "Advanced")),
@@ -42,7 +42,7 @@ public class MainMenuController {
                         new Question("Play often?", List.of("Yes", "No"))
                 )));
 
-                SurveyStorage.saveAll(surveys); // сохраняем дефолтные один раз
+                SurveyStorage.saveAll(surveys);
             }
 
             loaded = true;

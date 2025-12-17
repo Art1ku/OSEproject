@@ -25,7 +25,6 @@ public class SurveyController {
     public void initialize() {
         survey = MainMenuController.selectedSurvey;
 
-        // Сбрасываем всё при заходе на опрос
         index = 0;
         answers = new ArrayList<>();
 
@@ -42,7 +41,7 @@ public class SurveyController {
         questionLabel.setText(q.getText());
 
         optionsBox.getChildren().clear();
-        group = new ToggleGroup(); // создаём новый ToggleGroup
+        group = new ToggleGroup();
 
         for (String option : q.getOptions()) {
             RadioButton rb = new RadioButton(option);
@@ -54,14 +53,12 @@ public class SurveyController {
     public void next() throws Exception {
         if (group.getSelectedToggle() == null) return;
 
-        // Добавляем ответ текущего вопроса
         answers.add(((RadioButton) group.getSelectedToggle()).getText());
         index++;
 
         if (index < survey.getQuestions().size()) {
             loadQuestion();
         } else {
-            // Сохраняем ответы и возвращаемся в меню
             SurveyFileManager.save(survey.getTitle(), answers);
             Main.switchScene("main-menu.fxml");
         }
