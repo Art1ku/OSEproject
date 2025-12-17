@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox spacing="15"
+      xmlns="http://javafx.com/javafx"
+      xmlns:fx="http://javafx.com/fxml"
+      fx:controller="group.survey.controllers.HistoryController"
+      style="-fx-background-color:#f0f4f7;">
+
+    <padding>
+        <Insets top="20" right="20" bottom="20" left="20"/>
+    </padding>
+
+    <Label text="Completed Surveys"
+           style="-fx-font-size:20px; -fx-font-weight:bold; -fx-text-fill:#2c3e50;"/>
+
+    <TextArea fx:id="area" editable="false"
+              style="-fx-background-color:white; -fx-text-fill:#2c3e50; -fx-font-size:14px;"/>
+
+    <Button text="Back" onAction="#back"
+            style="-fx-background-color:#34495e; -fx-text-fill:white; -fx-font-weight:bold; -fx-background-radius:5;"/>
+</VBox>

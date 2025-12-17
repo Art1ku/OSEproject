@@ -1,0 +1,58 @@
+SURVEY:Programming Survey
+Q:Favorite language?
+O:Java
+O:Python
+O:C++
+Q:Level?
+O:Beginner
+O:Intermediate
+O:Advanced
+END
+
+SURVEY:Cooking Survey
+Q:Favorite cuisine?
+O:Italian
+O:Asian
+O:Local
+Q:How often cook?
+O:Daily
+O:Sometimes
+O:Never
+END
+
+SURVEY:Gaming Survey
+Q:Favorite genre?
+O:RPG
+O:Shooter
+O:Strategy
+Q:Play often?
+O:Yes
+O:No
+END
+
+SURVEY:school
+Q:lol are you student
+O:Yes
+O:nah
+O:im monke
+Q:Do you like math?
+O:Yes
+O:nah
+O:wtf
+END
+
+SURVEY:lolpin
+Q:lll
+O:s
+O:e
+O:l
+Q:llle
+O:k
+O:o
+O:j
+Q:eelll
+O:z
+O:o
+O:g
+END
+

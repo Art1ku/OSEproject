@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox spacing="10"
+      xmlns="http://javafx.com/javafx/22"
+      xmlns:fx="http://javafx.com/fxml/1"
+      fx:controller="group.survey.controllers.SurveyCreatorController"
+      style="-fx-background-color:#f0f4f7;">
+
+    <padding>
+        <Insets top="20" right="20" bottom="20" left="20"/>
+    </padding>
+
+    <Label text="Create Survey"
+           style="-fx-font-size:20px; -fx-font-weight:bold;"/>
+
+    <TextField fx:id="titleField" promptText="Survey title"/>
+
+    <VBox fx:id="questionsBox" spacing="10"/>
+
+    <Button text="+ Add Question"
+            onAction="#addQuestion"
+            style="-fx-background-color:#2ecc71; -fx-text-fill:white;"/>
+
+    <Button text="Save Survey"
+            onAction="#saveSurvey"
+            style="-fx-background-color:#3498db; -fx-text-fill:white;"/>
+
+    <Button text="Back"
+            onAction="#back"
+            style="-fx-background-color:#e74c3c; -fx-text-fill:white;"/>
+</VBox>
