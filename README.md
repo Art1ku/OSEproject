@@ -91,7 +91,7 @@ resources/
 1. Clone the repository:
 
 ```bash
-git clone 
+git clone https://github.com/Art1ku/OSEproject
 ```
 
 Open the project in IntelliJ IDEA or another Java IDE with JavaFX support.
